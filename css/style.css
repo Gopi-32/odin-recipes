@@ -1,0 +1,59 @@
+/* Reset some defaults and set a base font */
+body {
+  font-family: Arial, sans-serif; /* A common web safe font */
+  color: #333; /* Dark gray text */
+  background-color: #f7f7f7; /* Light background color */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h1,
+h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Style the main recipe image */
+img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto;
+  border: 2px solid #ddd;
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 5px;
+  background-color: #fff;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Lists */
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation link at the bottom of the recipe page */
+a.back-to-home {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #eaeaea;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
